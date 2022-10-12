@@ -54,7 +54,7 @@ class CommentApiController extends Controller
                 return response()->json(['message' => 'Update comment'], 200);
             }
         }
-        return response()->json(['message' => 'Failed updateу'], 404);
+        return response()->json(['message' => 'Failed update'], 404);
     }
 
     /**
